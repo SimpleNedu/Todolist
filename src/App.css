@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  min-height: 100vh;
+  background-color: white;
+}
+input:hover, input, select{
+  outline: none;
+  border: none;
+}
+.starter{
+  padding: 0.2rem;
+  background-color: rgb(30, 27, 27);
+  color: white;
+  font-size: 0.8rem;
+  font-family: 'Courier New', Courier, monospace;
+}

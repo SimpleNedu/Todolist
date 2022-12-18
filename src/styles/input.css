@@ -1,0 +1,135 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: rgba(4, 4, 4, 0.2);
+}
+input, select{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    box-shadow: inset 0.1rem 0.1rem 0.1rem 0.05rem rgba(0, 0, 0, 0.2);
+}
+button{
+    border: none;
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: rgba(0, 0, 255, 0.5);
+    transition: 1s;
+    font-weight: 600;
+}
+button:hover{
+    transition: 1s;
+    color: blue;
+}
+button[type='submit']{
+    font-size: 1.3rem;
+    padding: 0px;
+}
+input[type='text']{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.315) !important;
+}
+input[type='text']:hover, input[type='text']:focus{
+    border-bottom: solid 1px rgba(0, 0, 0) !important;
+    transition: 1s;
+}
+label{
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem; 
+    width: fit-content;
+    padding: 1rem;
+    border-bottom-right-radius: 0.8rem;
+    box-shadow: 0rem 0.2rem 0.4rem 0.02rem rgba(0, 0, 0, 0.08);
+
+}
+.filterBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.todoitem{
+    box-shadow: 0rem 0.2rem 0.3rem 0rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+    text-transform: capitalize;
+}
+.activity{
+    position: fixed;
+    right: 1.5rem;
+    display: flex;
+    gap: 1.2rem;
+}
+.activity2{
+    position: fixed;
+    right: 1.2rem;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.todo{
+    max-width: calc(100% - 15rem);
+    font-size: 0.8rem;
+    overflow: hidden;
+    font-weight: 600;
+}
+.date{
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 6.5rem;
+}
+.bg-black{
+    background-color: rgba(5, 5, 79, 0.06);
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.bg-blue{
+    background-color: rgba(68, 68, 108, 0.056);
+}
+.alt{
+    min-height: calc(100vh - 10.1rem);
+    background-color: rgba(4, 4, 4, 0.2);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.notverified{
+    transition: 1s;
+    color: rgb(236, 120, 120);
+    
+}
+.verified{
+    transition: 1s;
+    color: rgb(80, 231, 34);
+}
+.notverified:hover{
+    transition: 1s;
+    color: red;
+    
+}
+.verified:hover{
+    color: green;
+    transition: 1s;
+}
+
+
+
+
+
